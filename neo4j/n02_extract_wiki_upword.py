@@ -6,7 +6,7 @@ class WriteJD(object):
     @staticmethod
     def connect_to_mongodb():
         """建立MongoDB数据库连接"""
-        client = MongoClient("mongodb://root:bubb100178@106.14.147.212:3717")
+        client = MongoClient("mongodb://root:abc123@127.0.0.1:27017")
         db = client["skillmap"]
         job = db["wiki_android"]
         return job

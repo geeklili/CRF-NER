@@ -4,7 +4,7 @@ MONGODB_CLIENT = "mongodb://192.168.1.8:27017"
 
 # 取jd的数据库
 SOURCE_MONGODB_CLIENT = "mongodb://192.168.1.135:27017"
-# SOURCE_MONGODB_CLIENT = "mongodb://root:bubb100178@106.14.147.212:3717"
+# SOURCE_MONGODB_CLIENT = "mongodb://root:abc123@127.0.0.1:27017"
 SOURCE_DATABASE = 'lagou_xiaoxiao'
 # SOURCE_DATABASE = 'jd_skillmap'
 SOURCE_COLLECTION = 'Android'
